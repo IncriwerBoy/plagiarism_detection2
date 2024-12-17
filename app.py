@@ -9,10 +9,10 @@ option = st.selectbox(
     ("Upload files", "Paste text")
 )
 
-with open('artifacts\model_category.pkl' , 'rb') as model:
+with open('artifacts/model_category.pkl' , 'rb') as model:
     rf_category = pickle.load(model)
 
-with open('artifacts\model_class.pkl' , 'rb') as model:
+with open('artifacts/model_class.pkl' , 'rb') as model:
     xgb_class = pickle.load(model)
 
 
